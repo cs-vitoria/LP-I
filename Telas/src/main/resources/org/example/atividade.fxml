@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="240.0" layoutY="39.0" text="Atividade II">
+         <font>
+            <Font name="Microsoft JhengHei" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btArvore" layoutX="58.0" layoutY="126.0" mnemonicParsing="false" onAction="#irArvore" prefHeight="42.0" prefWidth="102.0" text="Árvore">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btBicicleta" layoutX="186.0" layoutY="126.0" mnemonicParsing="false" onAction="#irBicicleta" prefHeight="42.0" prefWidth="102.0" text="Bicicleta">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="bTCabelo" layoutX="315.0" layoutY="126.0" mnemonicParsing="false" onAction="#irCabelo" prefHeight="42.0" prefWidth="102.0" text="Cabelo">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btCamisa" layoutX="440.0" layoutY="126.0" mnemonicParsing="false" onAction="#irCamista" prefHeight="42.0" prefWidth="102.0" text="Camisa">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btColecao" layoutX="57.0" layoutY="191.0" mnemonicParsing="false" onAction="#irColecao" prefHeight="42.0" prefWidth="102.0" text="Coleção">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btDesenho" layoutX="187.0" layoutY="191.0" mnemonicParsing="false" onAction="#irDesenho" prefHeight="42.0" prefWidth="102.0" text="Desenho">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btExposicao" layoutX="315.0" layoutY="191.0" mnemonicParsing="false" onAction="#irExposicao" prefHeight="42.0" prefWidth="102.0" text="Exposição">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btn_voltar" layoutX="519.0" layoutY="332.0" mnemonicParsing="false" onAction="#voltar" prefHeight="48.0" prefWidth="56.0" text="⬅">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="btGravata" layoutX="440.0" layoutY="191.0" mnemonicParsing="false" onAction="#irGravata" prefHeight="42.0" prefWidth="102.0" text="Gravata">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btMascara" layoutX="57.0" layoutY="255.0" mnemonicParsing="false" onAction="#irMascara" prefHeight="42.0" prefWidth="102.0" text="Máscara">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btPessoa" layoutX="189.0" layoutY="255.0" mnemonicParsing="false" onAction="#irPessoa" prefHeight="42.0" prefWidth="102.0" text="Pessoa">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btRosto" layoutX="316.0" layoutY="255.0" mnemonicParsing="false" onAction="#irRosto" prefHeight="42.0" prefWidth="102.0" text="Rosto">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btTerno" layoutX="440.0" layoutY="255.0" mnemonicParsing="false" onAction="#irTerno" prefHeight="42.0" prefWidth="102.0" text="Terno">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
