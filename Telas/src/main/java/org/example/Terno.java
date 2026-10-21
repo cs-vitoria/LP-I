@@ -30,12 +30,15 @@ public class Terno {
     }
 
     String rasgar () {
-            return("Seu terno " + cor + ", tamanho " + tamanho + ", feito de " + tecido + " está rasgado.");}
+            return("Seu terno " + cor + ", tamanho " + tamanho + ", " +
+                    "\n feito de " + tecido + " está rasgado.");}
     String sujar () {
-            return("Seu terno " + cor +  " , tamanho " + tamanho + ", feito de " + tecido + " está sujo.");
+            return("Seu terno " + cor +  " , tamanho " + tamanho + ", " +
+                    "\n feito de " + tecido + " está sujo.");
         }
     String passar () {
-            return("Seu terno " + cor + ", tamanho " + tamanho + ", feito de " + tecido + " está passado e pendurado no cabide.");
+            return("Seu terno " + cor + ", tamanho " + tamanho + ", feito de " +
+                    "\n " + tecido + " está passado e pendurado no cabide.");
         }
     }
 

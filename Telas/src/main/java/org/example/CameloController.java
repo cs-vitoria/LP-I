@@ -21,7 +21,14 @@ public class CameloController {
 
     @FXML
     private Label txt_resultado;
+    @FXML
+    private Button btn_limpar;
 
+    @FXML
+    void limpar(ActionEvent event) {
+txt_camelo.clear();
+txt_resultado.setText("");
+    }
     @FXML
     void calcular_camelo(ActionEvent event) {
         Camelo camelo = new Camelo();

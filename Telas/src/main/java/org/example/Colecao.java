@@ -3,9 +3,9 @@ package org.example;
 public class Colecao {
     private String tipo;
     private int quantidade;
-    private String valor;
+    private double valor;
 
-    public Colecao(String tipo, int quantidade, String valor){
+    public Colecao(String tipo, int quantidade, double valor){
        this.tipo = tipo;
        this.quantidade = quantidade;
        this.valor = valor;
@@ -17,7 +17,7 @@ public class Colecao {
     public int getQuantidade(){
         return quantidade;
     }
-    public String getValor(){
+    public Double getValor(){
         return valor;
     }
     public void setTipo(String tipo){
@@ -26,7 +26,7 @@ public class Colecao {
     public void setQuantidade(int quantidade){
         this.quantidade = quantidade;
     }
-    public void setValor(String valor){
+    public void setValor(Double valor){
         this.valor = valor;
     }
     String adicionar(){
@@ -38,6 +38,7 @@ public class Colecao {
         return(quantidade + " item(ns) retirado(s) da coleção de " + tipo);
     }
     String guardar(){
-        return("A coleção de " + tipo + " está guardada porque vale R$ " + valor + " e não pode ficar exposta.");
+        return("A coleção de " + tipo + " está guardada porque vale " +
+                "\n R$ " + valor + " e não pode ficar exposta.");
     }
 }

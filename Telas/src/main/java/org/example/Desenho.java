@@ -19,7 +19,8 @@ public class Desenho {
     public void setCor(String cor){this.cor = cor;}
 
     String esbocar(){
-        return("Estou fazendo um esboço de desenho inspirado no(a) pintor(a) " + pintor);
+        return("Estou fazendo um esboço de desenho " +
+                "\n inspirado no(a) pintor(a) " + pintor);
     }
     String pintar(){
         return("Pintei um desenho na cor " + cor);

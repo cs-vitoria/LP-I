@@ -21,12 +21,15 @@ public class Rosto {
     public void setFormato(String formato){this.formato = formato;}
 
     String limpar_rosto(){
-        return("O rosto de contraste " + contraste + ", que tem o formato " + formato + " e possui olhos " + cor_olho + " está limpo.");
+        return("O rosto de contraste " + contraste + ", que tem o formato " +
+                "\n " + formato + " e possui olhos " + cor_olho + " está limpo.");
     }
     String hidratar(){
-        return("O rosto de contraste " + contraste + ", que tem o formato " + formato + " e possui olhos " + cor_olho + " está hidratado.");
+        return("O rosto de contraste " + contraste + ", que tem o formato " +
+                "\n " + formato + " e possui olhos " + cor_olho + " está hidratado.");
     }
     String maquiar(){
-        return("O rosto de contraste " + contraste + ", que tem o formato " + formato + " e possui olhos " + cor_olho + " está maquiado.");
+        return("O rosto de contraste " + contraste + ", que tem o formato " +
+                "\n " + formato + " e possui olhos " + cor_olho + " está maquiado.");
     }
 }

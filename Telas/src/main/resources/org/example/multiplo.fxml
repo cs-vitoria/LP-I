@@ -39,5 +39,13 @@
          </cursor>
       </TextField>
       <Label alignment="CENTER" layoutX="227.0" layoutY="169.0" prefHeight="25.0" prefWidth="149.0" text="Digite o segundo número" />
+      <Button fx:id="bt_limpar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#limpar" prefHeight="21.0" prefWidth="56.0" text="Limpar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

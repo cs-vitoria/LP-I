@@ -33,12 +33,15 @@ public class Cabelo { //classe
     }
 
     String prender() {//metodo
-        return("o seu cabelo " + textura +" "+ cor + " com " + tamanho + "cm de comprimento está preso em um rabo de cavalo.");
+        return("o seu cabelo " + textura +" "+ cor + " com " + tamanho + "" +
+                "\n cm de comprimento está preso em um rabo de cavalo.");
     }
     String lavar() {
-        return("o seu cabelo " + textura +" "+ cor + " com " + tamanho + "cm de comprimento está limpo e cheiroso.");
+        return("o seu cabelo " + textura +" "+ cor + " com " + tamanho + "" +
+                "\n cm de comprimento está limpo e cheiroso.");
     }
     String arrumar() {
-        return("o seu cabelo " + textura +" "+ cor + " com " + tamanho + "cm de comprimento está arrumado, bonito e elegante.");
+        return("o seu cabelo " + textura +" "+ cor + " com " + tamanho + "" +
+                "\n cm de comprimento está arrumado, bonito e elegante.");
     }
 }

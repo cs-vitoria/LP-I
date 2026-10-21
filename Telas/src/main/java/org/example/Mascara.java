@@ -30,12 +30,15 @@ public class Mascara {
      }
 
     String pendurar(){
-        return("A máscara de " + material + " está pendurada.");
+        return("A máscara de " + material + " " +
+                "\n está pendurada.");
      }
     String produzir(){
-        return("A artista precisa produzir uma máscara do estilo " + estilo + " para um evento.");
+        return("A artista precisa produzir uma máscara " +
+                "\n do estilo " + estilo + " para um evento.");
      }
     String restaurar(){
-        return("A máscara de face " + face + " está sendo restaurada.");
+        return("A máscara de face " + face + " " +
+                "\n está sendo restaurada.");
      }
 }

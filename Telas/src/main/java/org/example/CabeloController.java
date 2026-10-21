@@ -47,8 +47,8 @@ public class CabeloController {
     @FXML
     void criar(ActionEvent event) {
         String cor = txt_cor.getText();
-        Double tamanho = Double.parseDouble(txt_textura.getText());
-        String textura = txt_tamanho.getText();
+        Double tamanho = Double.parseDouble(txt_tamanho.getText());
+        String textura = txt_textura.getText();
 
         c = new Cabelo(cor, tamanho, textura);
 

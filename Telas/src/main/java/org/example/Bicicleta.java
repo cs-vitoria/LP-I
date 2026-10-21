@@ -31,12 +31,15 @@ public class Bicicleta {
     }
 
     String quebrar(){
-        return("A bicicleta " + modelo + " " + cor + ", da marca " + marca + ", está quebrada e com peças faltando.");
+        return("A bicicleta " + modelo + " " + cor + ", da marca " + marca + ", " +
+                "\n está quebrada e com peças faltando.");
     }
     String andar(){
-        return("A bicicleta " + modelo + " " + cor + ", da marca " + marca + ", está em movimento.");
+        return("A bicicleta " + modelo + " " + cor + ", " +
+                "\n da marca " + marca + ", está em movimento.");
     }
     String freiar(){
-        return("A bicicleta " + modelo + " " + cor + ", da marca " + marca + ", está parada.");
+        return("A bicicleta " + modelo + " " + cor + ", " +
+                "\n da marca " + marca + ", está parada.");
     }
 }

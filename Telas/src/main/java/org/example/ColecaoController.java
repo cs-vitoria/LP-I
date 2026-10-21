@@ -48,7 +48,7 @@ public class ColecaoController {
     void criar(ActionEvent event) {
         String tipo = txt_tipo.getText();
         int quantidade = Integer.parseInt(txt_quantidade.getText());
-        String valor = txt_valor.getText();
+        double valor = Double.parseDouble(txt_valor.getText());
 
         c = new Colecao (tipo, quantidade, valor);
 

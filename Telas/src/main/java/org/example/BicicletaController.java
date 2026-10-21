@@ -54,7 +54,7 @@ public class BicicletaController {
         Alert alerta = new Alert(Alert.AlertType.INFORMATION);
         alerta.setTitle("Sucesso");
         alerta.setHeaderText(null);
-        alerta.setContentText(" criad com sucesso!");
+        alerta.setContentText("Bicicleta criada com sucesso!");
 
         alerta.showAndWait();
     }
@@ -62,12 +62,12 @@ public class BicicletaController {
 
     @FXML
     void andar(ActionEvent event) {
-
+txt_resultado.setText(b.andar());
     }
 
     @FXML
     void freiar(ActionEvent event) {
-
+        txt_resultado.setText(b.freiar());
     }
 
     @FXML
@@ -80,7 +80,7 @@ public class BicicletaController {
 
     @FXML
     void quebrar(ActionEvent event) {
-
+        txt_resultado.setText(b.quebrar());
     }
 
     @FXML

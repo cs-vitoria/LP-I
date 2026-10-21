@@ -21,6 +21,14 @@ public class LoginController {
 
     @FXML
     private TextField txt_senha;
+    @FXML
+    private Button btn_limpar;
+
+    @FXML
+    void limpar(ActionEvent event) {
+txt_senha.clear();
+txt_resultado.setText("");
+    }
 
     @FXML
     void entrar_senha(ActionEvent event) throws IOException {

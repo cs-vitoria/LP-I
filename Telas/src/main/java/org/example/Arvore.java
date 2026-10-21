@@ -31,12 +31,15 @@ public class Arvore {
     }
 
     String cair(){
-        return("Por conta da idade, a árvore de " + idade + " anos caiu.");
+        return("Por conta da idade, a árvore de " +
+                "\n " + idade + " anos caiu.");
     }
     String crescer(){
-        return("A árvore da espécie " + especie + " está crescendo no quintal.");
+        return("A árvore da espécie " + especie + "" +
+                "\n  está crescendo no quintal.");
     }
     String florescer(){
-       return("A folhagem do tipo " + folhagem + ", da árvore " + especie + ", está aumentando.");
+       return("A folhagem do tipo " + folhagem + ", " +
+               "\n da árvore " + especie + ", está aumentando.");
     }
 }

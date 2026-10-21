@@ -30,12 +30,15 @@ public class Camisa {
     }
 
     String lavar() {
-        return("Sua camisa "+ cor + " de tamanho " + tamanho+ ", feita de "+ tecido + ", está lavada.");
+        return("Sua camisa "+ cor + " de tamanho " + tamanho+ "," +
+                "\n feita de "+ tecido + ", está lavada.");
     }
     String costurar() {
-        return("Sua camisa "+ cor + " de tamanho " + tamanho+ ", feita de "+ tecido + ", está na costureira.");
+        return("Sua camisa "+ cor + " de tamanho " + tamanho+ ", " +
+                "\n feita de "+ tecido + ", está na costureira.");
     }
     String secar() {
-        return("Sua camisa "+ cor + " de tamanho " + tamanho+ ", feita de "+ tecido + ", está secando no varal.");
+        return("Sua camisa "+ cor + " de tamanho " + tamanho+ ", " +
+                "\n feita de "+ tecido + ", está secando no varal.");
     }
 }

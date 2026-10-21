@@ -26,6 +26,15 @@ public class MultiploController {
     private Label txt_resultado;
 
     @FXML
+    private Button btn_limpar;
+
+    @FXML
+    void limpar(ActionEvent event) {
+    txt_num1.clear();
+    txt_num2.clear();
+    }
+
+    @FXML
     void calcular_multiplo(ActionEvent event) throws IOException {
 Multiplo numero = new Multiplo();
 txt_resultado.setText(numero.descobrir_multiplo(Integer.parseInt(txt_num1.getText()),Integer.parseInt(txt_num2.getText())));

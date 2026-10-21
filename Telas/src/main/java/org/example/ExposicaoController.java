@@ -70,17 +70,17 @@ public class ExposicaoController {
 
     @FXML
     void observar(ActionEvent event) {
-
+txt_resultado.setText(e.observar());
     }
 
     @FXML
     void organizar(ActionEvent event) {
-
+        txt_resultado.setText(e.organizar());
     }
 
     @FXML
     void visitar(ActionEvent event) {
-
+        txt_resultado.setText(e.visitar());
     }
 
     @FXML

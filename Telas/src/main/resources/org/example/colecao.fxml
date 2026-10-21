@@ -14,7 +14,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="btn_adicionar" layoutX="222.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Adicionar">
+      <Button fx:id="btn_adicionar" layoutX="222.0" layoutY="200.0" mnemonicParsing="false" onAction="#adicionar" prefHeight="25.0" prefWidth="70.0" text="Adicionar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
@@ -49,17 +49,17 @@
          </cursor>
       </TextField>
       <Label alignment="CENTER" layoutX="400.0" layoutY="117.0" prefHeight="25.0" prefWidth="176.0" text="Quantidade" />
-      <Button fx:id="btn_retirar" layoutX="315.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Retirar">
+      <Button fx:id="btn_retirar" layoutX="315.0" layoutY="200.0" mnemonicParsing="false" onAction="#retirar" prefHeight="25.0" prefWidth="64.0" text="Retirar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn_guardar" layoutX="405.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Guardar">
+      <Button fx:id="btn_guardar" layoutX="405.0" layoutY="200.0" mnemonicParsing="false" onAction="#guardar" prefHeight="25.0" prefWidth="64.0" text="Guardar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn_criar" layoutX="129.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Criar">
+      <Button fx:id="btn_criar" layoutX="129.0" layoutY="200.0" mnemonicParsing="false" onAction="#criar" prefHeight="25.0" prefWidth="70.0" text="Criar">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>

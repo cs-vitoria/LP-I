@@ -32,12 +32,15 @@ public class Pessoa {
     }
 
     String correr(){
-        return(nome + ", que tem " + idade + " anos e mede " + altura + " m, está correndo.");
+        return(nome + ", que tem " + idade + "" +
+                "\n  anos e mede " + altura + " m, está correndo.");
     }
     String pedalar(){
-        return(nome + ", que tem " + idade + " anos e mede " + altura + " m, está andando de bicicleta.");
+        return(nome + ", que tem " + idade + " anos e mede " +
+                "\n " + altura + " m, está andando de bicicleta.");
     }
     String gritar(){
-        return(nome + ", que tem " + idade + " anos e mede " + altura + " m, está gritando.");
+        return(nome + ", que tem " + idade + " anos e mede " +
+                "\n " + altura + " m, está gritando.");
     }
 }

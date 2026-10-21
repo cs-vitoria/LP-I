@@ -38,5 +38,13 @@
             <Font size="20.0" />
          </font>
       </Button>
+      <Button fx:id="btn_limpar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#limpar" text="Limpar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

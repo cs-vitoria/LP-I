@@ -29,12 +29,15 @@ public class Gravata {
     }
 
     String amarrar() {
-        return("Sua gravata " + modelo + " " + textura + ", com estampa " + estampa + " está amarrada.");
+        return("Sua gravata " + modelo + " " + textura + "," +
+                "\n  com estampa " + estampa + " está amarrada.");
     }
     String cortar() {
-        return("Sua gravata " + modelo + " " + textura + ", com estampa " + estampa + " foi cortada para vestir melhor.");
+        return("Sua gravata " + modelo + " " + textura + ", com estampa " +
+                "\n " + estampa + " foi cortada para vestir melhor.");
     }
     String pendurar() {
-        return("Sua gravata " + modelo + " " + textura + ", com estampa " + estampa + " está pendurada no cabide.");
+        return("Sua gravata " + modelo + " " + textura + ", com " +
+                "\n estampa " + estampa + " está pendurada no cabide.");
     }
 }
